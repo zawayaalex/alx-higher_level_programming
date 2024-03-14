@@ -4,5 +4,5 @@ if __name__ == "__main__":
     n = 0
     count = len(sys.argv) - 1
     for i in range(count):
-        n = n + int (sys.argv[i + 1])
+        n = n + int(sys.argv[i + 1])
     print("{}".format(n))
